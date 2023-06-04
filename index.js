@@ -82,7 +82,7 @@ function writeToFile(answers) {
 // TODO: Create a function to initialize app
 inquirer.prompt(questions).then((answers) => {
     // Generate README content based on the answers
-    const readmeContent = generateReadme(answers);
+    const readmeContent = writeToFile(answers);
   
     // Write the generated README content to a file
     fs.writeFile('README.md', readmeContent, (err) => {
