@@ -6,37 +6,37 @@ const fs = require('fs');
 const questions = [
     {
         type: 'input',
-        name: 'Title',
+        name: 'title',
         message: 'Enter your project title:',
       },
       {
         type: 'input',
-        name: 'Description',
+        name: 'description',
         message: 'Enter a description:',
       },
       {
         type: 'input',
-        name: 'Installation',
+        name: 'installation',
         message: 'Describe any necessary installations:',
       },
       {
         type: 'input',
-        name: 'Usage',
+        name: 'usage',
         message: 'Describe the usage of the application:',
       },
       {
         type: 'input',
-        name: 'Contribution',
+        name: 'contribution',
         message: 'Enter a contribution your project makes:',
       },
       {
         type: 'input',
-        name: 'Tests',
+        name: 'tests',
         message: 'Enter the tests that can be ran:',
       },
       {
         type: 'input',
-        name: 'License',
+        name: 'license',
         message: 'Enter a license if one applies,'
       },
 
