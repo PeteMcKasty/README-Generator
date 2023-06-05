@@ -37,7 +37,7 @@ const questions = [
       {
         type: 'input',
         name: 'license',
-        message: 'Enter a license if one applies,'
+        message: 'Enter a license if one applies:',
       },
 
 ];
