@@ -26,7 +26,7 @@ const questions = [
       },
       {
         type: 'input',
-        name: 'contribution',
+        name: 'contributing',
         message: 'Enter a contribution your project makes:',
       },
       {
